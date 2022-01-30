@@ -1,4 +1,4 @@
-   
+/* Image style */ 
 .row {
     width: 80%;
     margin: auto;
@@ -19,5 +19,48 @@
     overflow: hidden;
 }
 
+.column h3 {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+img:hover {
+    cursor: pointer;
+    box-shadow: 0.04rem 0.55rem 0 rgba(32, 92, 84, 0.6);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+/* Game style */
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.2rem solid rgba(32, 92, 84, 0.6);
+    border-radius: 10px;
+    background-color: rgb(187, 235, 238);
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0.04rem 0.4rem 0 rgba(32, 92, 84, 0.6);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(106, 238, 238);
+    font-weight: 600;
+}
+
+.choice-text {
+    padding: 1.5rem;
+}
 
 
