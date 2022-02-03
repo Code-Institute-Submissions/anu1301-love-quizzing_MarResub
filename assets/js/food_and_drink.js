@@ -1,5 +1,6 @@
-const question = document.getElementById("question");
-const choices = Array.from(document.getElementByClassName("choice-text"));
+const question = document.querySelector('#question');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
+
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -7,8 +8,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [
-    {
+let questions = [{
         question: 'What type of pastry are profiteroles made from?',
         choice1: 'Puff pastry',
         choice2: 'Short crust pastry',
@@ -112,11 +112,13 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    choices.forEach((choice) => {
+    choices.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    });
-    availableQuesions.splice(questionIndex, 1);
+    })
+
+    availableQuestions.splice(questionIndex, 1);
+
     acceptingAnswers = true;
 };
 
@@ -127,8 +129,19 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-        getNewQuestion();
-    });
-});
+
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        selectedChoice.parentElement.classList.add(classToApply)
+        
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        
+        }, 1000)
+       
+    })
+})
+
 
 startGame();

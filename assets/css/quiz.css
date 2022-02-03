@@ -28,4 +28,12 @@
     padding: 1.5rem;
 }
 
+.correct {
+    background-color: rgba(0, 255, 85, 0.932);
+}
+
+.incorrect {
+    background-color: rgb(255, 51, 0);
+}
+
 
