@@ -6,7 +6,7 @@
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.2rem solid rgba(32, 92, 84, 0.6);
+    border: 0.3rem solid rgba(32, 92, 84, 0.6);
     border-radius: 10px;
     background-color: rgb(187, 235, 238);
 }
@@ -35,5 +35,39 @@
 .incorrect {
     background-color: rgb(255, 51, 0);
 }
+
+/* Heads up display (hud) */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text {
+    text-align: center;
+}
+
+
+#progressBar {
+    width: 25rem;
+    height: 4rem;
+    border:0.3rem solid rgb(32, 92, 84);
+    border-radius: 50px;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: rgb(32, 92, 84);
+    border-radius: 50px;
+    width: 0%;
+
+}
+
+
 
 
