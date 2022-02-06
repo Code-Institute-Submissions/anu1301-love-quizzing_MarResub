@@ -108,13 +108,13 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        //will take you to end page
-        localStorage.setItem('mostRecentScore', score);
+        localStorage.setItem('mostRecentScore', score)
+        //takes you to end page
         return window.location.assign('/end.html');
     }
     questionCounter++
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //will update progress bar
+    // updates progress bar
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
     
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
