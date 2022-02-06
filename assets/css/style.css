@@ -44,7 +44,7 @@ h3 {
 
 /* Image style */
 .row {
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-bottom: 5%;
     display: flex;
@@ -186,3 +186,10 @@ input {
     border-radius: 50px;
     text-align: center;
 }
+
+@media (max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+ 
