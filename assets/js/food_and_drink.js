@@ -11,6 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+//Question and answer section
 let questions = [{
         question: 'What type of pastry are profiteroles made from?',
         choice1: 'Puff pastry',
