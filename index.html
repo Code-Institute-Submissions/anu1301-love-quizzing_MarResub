@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/09ce35d73f.js" crossorigin="anonymous"></script>
     <title>Love Quizzing</title>
     <header>
         <div id="home" class="flex-center flex-column">
@@ -18,26 +19,33 @@
     <!---Image category of question-->
     <div id="img" class="row">
         <div class="column">
-
             <a href="./food_and_drink.html"><img id="food-and-drink" src="./assets/images/food-and-drink.jpg"
                     alt="Glasses of wine and antipasti"></a>
-            <h3>Food & Drink</h3>
+            <div>
+                <h2>Food & Drink</h2>
+            </div>
         </div>
         <div class="column">
             <img id="history" src="./assets/images/history.jpg"
                 alt="Sepia image of partial clock face, sail boat and old fashioned History book">
-            <h3>History</h3>
+            <div>
+                <h2>History</h2>
+            </div>
         </div>
     </div>
     <div id="img" class="row">
         <div class="column">
             <img id="science" src="./assets/images/science.jpg"
                 alt="DNA helix strand and a doctor in a lab coat with stethascope">
-            <h3>Science</h3>
+            <div>
+                <h2>Science</h2>
+            </div>
         </div>
         <div class="column">
             <img id="sports" src="./assets/images/sports.jpg" alt="Many people practising multiple sports">
-            <h3>Sports</h3>
+            <div>
+                <h2>Sports</h2>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -55,7 +63,7 @@
             </div>
         </div>
     </div>
-<!--JavaScript for collapsible-->
+    <!--JavaScript for collapsible-->
     <script>
         var coll = document.getElementsByClassName("collapsible");
         var i;
@@ -72,6 +80,29 @@
             });
         }
     </script>
+
+<footer>
+    <!--Social media-->
+    <div class="row">
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab"><i class="fab fa-facebook-square"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab"><i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab"><i class="fab fa-instagram"></i>
+            </a>
+        </li>
+    </ul> 
+</div>
+</footer>
 
 </body>
 
