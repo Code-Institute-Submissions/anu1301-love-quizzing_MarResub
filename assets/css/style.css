@@ -45,7 +45,7 @@ h3 {
 
 /* Image style */
 .row {
-    width: 65%;
+    width: 55%;
     margin: 25%;
     margin-top: 0;
     margin-bottom: 5%;
@@ -221,16 +221,13 @@ footer {
 
 .social-networks {
     width: 60%;
-    font-size: 4rem;
-    text-align: center;
+    font-size: 3.5rem;
     display: inline-flex;
     margin: auto;
     color: #001a4d;
     list-style-type: none;
-    justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
     padding-top: 5rem;
     justify-content: space-evenly;
     

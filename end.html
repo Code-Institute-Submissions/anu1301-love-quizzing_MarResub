@@ -15,9 +15,17 @@
     <div id="end" class="flex-center flex-column">
       <h2>Your Final Score</h2>
       <h2 id="finalScore">0</h2>
-      <form>
+      <div>
+        <h2>Feedback Form</h2>
+      <form action="https://formdump.codeinstitute.net" method="POST" class="feedback-form"
+      onsubmit="confirmSent()">
+        <label for="name-field">Name</label>
+        <input id="name-field" type="text" name="full_name" placeholder="Please enter your full name" required/>
+        <label for="email">Email</label>
+        <input id="name-field" type="text" name="full_name" placeholder="Please enter your full name">
 
       </form>
+    </div>
       <a class="btn" href="./index.html">Home</a>
     </div>
   </div>
