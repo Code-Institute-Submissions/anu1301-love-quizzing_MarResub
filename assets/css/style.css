@@ -34,7 +34,7 @@ h1>span {
 
 h2 {
     font-size: 3.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     
 }
 
@@ -213,6 +213,7 @@ input {
     border: 0.2rem solid #001a4d;
     border-radius: 50px;
     text-align: center;
+    cursor: pointer;
 
 }
 
@@ -223,10 +224,12 @@ label {
 }
 
 #feedback {
-    width:60rem;
+    width:65rem;
     height: 30rem;
     border: 0.2rem solid #001a4d;
     border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 form > p {
