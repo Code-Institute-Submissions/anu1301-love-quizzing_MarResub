@@ -94,9 +94,9 @@ let questions = [{
     },
 ];
 
-//Constants
-
+//Number of points scored for each correct answer
 const SCORE_POINTS = 10;
+// Max number of question asked
 const MAX_QUESTIONS = 10;
 
 startGame = () => {
@@ -108,6 +108,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+         // displays final score in end page
         localStorage.setItem('mostRecentScore', score);
         //takes you to end page
         return window.location.assign('/end.html');
@@ -116,7 +117,7 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     // updates progress bar
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
-    
+    // randomises the question order
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -130,7 +131,7 @@ getNewQuestion = () => {
 
     acceptingAnswers = true;
 };
-
+// returns with colour change according to correct or incorrect answer
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
@@ -154,7 +155,7 @@ choices.forEach((choice) => {
        
     });
 });
-
+// increments score for correct answers
 incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
