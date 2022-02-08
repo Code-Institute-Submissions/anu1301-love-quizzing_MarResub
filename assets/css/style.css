@@ -64,11 +64,14 @@ h3 {
     margin-bottom: 0;
     position: relative;
     overflow: hidden;
+
 }
 
 .column h2 {
-    text-align: left;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-right: 11rem;
+    white-space: nowrap;
 }
 
 img {
@@ -247,12 +250,13 @@ form > p {
 /* footer */
 footer {
     height: 10rem;
+    margin-top: 10rem;
 
 }
 
 .social-networks {
     width: 60%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     display: inline-flex;
     margin: auto;
     color: #001a4d;
