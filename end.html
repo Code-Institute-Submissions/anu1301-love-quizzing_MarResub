@@ -17,10 +17,10 @@
       <h2 id="finalScore">0</h2>
       <h2>Feedback Form</h2>
       <div>
-        
+
         <form action="https://formdump.codeinstitute.net" method="POST" class="feedback-form" onsubmit="confirmSent()">
           <label for="name-field">Name</label>
-          <input id="name-field" type="text" name="full_name" placeholder="Please enter your full name" required/>
+          <input id="name-field" type="text" name="full_name" placeholder="Please enter your full name" required />
           <label for="email">Email</label>
           <input id="email" type="email" name="email" placeholder="Please enter your email address">
           <p>If you enjoyed the quiz, please let us have your feedback and further ideas for new categories</p>
@@ -31,7 +31,12 @@
       <a class="btn" href="./index.html">Home</a>
     </div>
   </div>
-  <script src="./assets/js/end.js"></script>
+  <script>
+    //final score on end page
+    const finalScore = document.querySelector('#finalScore');
+    const mostRecentScore = localStorage.getItem('mostRecentScore');
+    finalScore.innerText = mostRecentScore;
+  </script>
 
 </body>
 
