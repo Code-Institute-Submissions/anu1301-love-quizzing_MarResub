@@ -1,108 +1,230 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Quizzing?
+![website preview](./assets/images/am_i_reponsive.PNG)
+## Introduction
+Online quizzes are becoming popular and there has been a growth in this market over the last couple of years, due to the Covid pandemic.
 
-Welcome Anu Sethi,
+Quizzes have transitioned from the earliest publically organised quiz in the U.S. in the 1930s, through radio and television, and now online.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+I was inspired to create a quiz because of my own love of quizzing.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+A live website to my quiz can be found [here](https://anu1301.github.io/love-quizzing/).
 
-## Gitpod Reminders
+## Table of Contents
+[1. User Expereince (UX)](#ux)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[2. Colour Scheme](#colour-scheme)
+ 
+[3. Wire Frames](#wireframes)
 
-`python3 -m http.server`
+[4. Features](#features)
 
-A blue button should appear to click: _Make Public_,
+[5.Technologies Used](#technologies-used)
 
-Another blue button should appear to click: _Open Browser_.
+[6.Testing](#testing)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[7.Issues & Future Development](#issues-and-developments)
 
-A blue button should appear to click: _Make Public_,
+[8. Deployment](#deployment)
 
-Another blue button should appear to click: _Open Browser_.
+[9. Credits](#credits)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<a name="ux"></a>
 
-To log into the Heroku toolbelt CLI:
+## 1. User Experience (UX)
+[Go up to the top](#table-of-contents)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The aim was to design an online quiz game that would provide entertainment and knowledge at the same time.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The target audience the quiz is aimed at varies and is vast - any age from mid/late 20s to the over 50s.
 
-------
+The application provides four separate categories of questions - Food & Drink, History, Science and Sports, which have proven to be popular and gives the user a variety from which to choose.
 
-## Release History
+Each separate category provides 10 questions with multiple choise answers. The user is able to only select one answer from a choise of four per question.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Once all the questions from a category are completed the user is directed to the end page where the final score is displayed and a simple form is provided for feedback purposes.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The application is simple to use and intuitive, and provides instruction on the home/landing page.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The application is responsive to various sized devices.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<a name="colour-scheme"></a>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## 2. Colour Scheme
+[Go up to the top](#table-of-contents)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The choice of background colour of pale blue transitioning into a pale magenta, provides a contrasting backdrop for the dark indigo font colour. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+It provides enough interest without it being distracting to the user.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The website was run through the WebAim Contrast Checker with the following result:
+![colour contrast](./assets/images/webaim_contrast_checker.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<a name="wireframes></a>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## 3. Wire Frames
+[Go up to the top](#table-of-contents)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Balsamiq was used to create an initial skeletal/wire frame plan.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I had sketched out two different plans initially, as presented below:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![wire frame](./assets/images/love_quizzing_one_home.PNG)
+### Home page of first idea.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![wire frame](./assets/images/love_quizzing_one_quiz.PNG)
+### Quiz page of first idea
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![wire frame](./assets/images/love_quizzing_two_home.PNG)
+### Home page of second idea
 
-------
+![wire frame](./assets/images/love_quizzing_two_quiz.PNG)
+#### Qiz page of second idea
 
-## FAQ about the uptime script
+![wire frame](./assets/images/love_quizzing_two_end.PNG)
+### End page of first and second idea
 
-**Why have you added this script?**
+The final design was a hybrid of the two ideas with additional features.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<a name="features"></a>, 
 
-**How will this affect me?**
+## 4. Features
+[Go up to the top](#table-of-contents)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The home/landing page presents the title of the site as a question "Love Quizzing?" Below this there are four images which represent the four categories of quizzes,
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Each image acts as a responsive button which takes you to its corresponding quiz page when, clicked upon.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Below the categories is a collapsible information bar, which responds to the mouse hover by changing colour. It opens up an information section when the "plus" icon is clicked, and closes when the "minus" icon is clicked,
 
-**So….?**
+Each qui page provides you with the title of the quiz at the top of the page, below which there is a progress bar, a question tracker and a score tracker for the number of correct answers given.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The questions follow on and are given randomly, with the multiple choice answers below.
 
-**Can I opt out?**
+A correct answer returns with the answer bar turning green, and an incorrect answer returns with the bar turning red.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+A home button below the answers will return you to the home page.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Once the quiz is complete, the user will be directed to the end page where the final score for correct answers is given. 
 
-**Anything more?**
+There is a simplet form to provide feedback, name and e-mail. These are required fields.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Again a home button is provided for the user to return to the home page to choose another category.
 
----
+<a name="technologies-used"></a>
 
-Happy coding!
+## 5. Technologies Used
+[Go up to the top](#table-of-contents)
+
+The following technologies where used:
+
+- HTML
+- CSS
+- JavaScript
+
+<a name="testing"></a>
+
+## 6. Testing
+[Go up to the top](#table-of-contents) 
+
+Chrome developer tools was used simultaneously whilst the website was being built, to ensure that any issues were picked up straight away.
+
+W3C Markup was used to check for errors within the HTML pages. The final checks showed no errors.
+
+![html-validation](./assets/images/index.html_validation.PNG)
+index.html
+
+![html-validation](./assets/images/quiz.html_validation.PNG)
+Note that all the quiz pages are the same and have all been tested in the same way to produce the same result. Only one set of results are shown above.
+
+![html-validation](./assets/images/end.html_validation.PNG)
+end.html
+
+W3C CSS was used to check for errors within style.css and quiz.css, with no errors showing at the end:
+
+![css-validation](./assets/images/style.css_validation.PNG)
+style.css
+
+The warning shown in the error checker relates to the imported font styles from google.
+
+![css-validation](./assets/images/quiz.css_validation.PNG)
+quiz.css
+
+JSHint was used to check for errors within the JavaScript code, with the following results for the final check:
+
+![js-validation](./assets/images/js_warnings.PNG)
+
+I am not sure what the warnings mean, as I have tested the code through dev tools, and there appears to be adverse effects and the code is working as it should.
+
+WebAim was also used to check accessibility, with the following results:
+
+![accessibility](./assets/images/accessibility.PNG)
+
+<a name="issues-and-developments"></a>
+
+## 7. Issues & Future Developments
+[Go up to the top](#table-of-contents) 
+
+There are some noted issues which have been difficult to detect and rectify, in the time given.
+
+The images on the home page appear slightly mis-aligned on smaller devices, and have very little spacing between them horizontally on an iPad type device.
+
+The category text below the image has been difficult to align center to the image above.
+
+There appears to be a colour band at the bottom of the web pages, which I have not been able to detect why it is there.
+
+There has been consideration given to future developments, had this been a real quiz page. 
+
+- A possibility of further categories of quiz. 
+
+- Time limits being placed on answering the questions, to heighten the excitment of beating the clock. 
+
+- Having a highest score 'Leader Board'
+
+- Animated background
+
+<a name="deployment"></a>
+
+## 8. Deployment
+[Go up to the top](#table-of-contents)
+
+The site was deployed to GitHub pages, since the repository was created through GitHub, using the following method:
+
+- Click on settings navigation bar under the Love Quizzing repository title.
+
+- Select pages on the left-hand side menu
+
+- Click on master branch and save
+
+- This generates a link with the website live
+
+- The live link can be found at the top of this document
+
+<a name="credits"></a>
+
+## 9. Credits
+[Go up to the top](#table-of-contents)
+
+The images were taken from Adobe Stock on a free trial period basis.
+
+I relied on James Q Quick and Brian Design tutorial for the quiz JavaScript code.
+
+For the collapsible and linear gradient background, I used W3Schools.
+
+I also used some code and ideas from my previous project "Mollies Boutique", as well as getting some ideas from the CI Love Maths project.
+
+My mentor, Marcel Mulder, gave valuable feedback and ideas for improvement or experimentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
