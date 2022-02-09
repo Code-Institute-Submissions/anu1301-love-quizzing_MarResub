@@ -265,7 +265,7 @@ footer {
     list-style-type: none;
     align-items: center;
     max-width: 80rem;
-    padding-top: 5rem;
+    padding-top: 25rem;
     justify-content: space-evenly;
     
 }
@@ -299,9 +299,6 @@ footer {
     }
     header > h1 {
         font-size: 3.5rem;
-    }
-    .row {
-        width: 100%;
     }
   
 }
