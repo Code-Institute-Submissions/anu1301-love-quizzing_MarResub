@@ -39,7 +39,7 @@ The target audience the quiz is aimed at varies and is vast - any age from mid/l
 
 The application provides four separate categories of questions - Food & Drink, History, Science and Sports, which have proven to be popular and gives the user a variety from which to choose.
 
-Each separate category provides 10 questions with multiple choise answers. The user is able to only select one answer from a choise of four per question.
+Each separate category provides 10 questions with multiple choice answers. The user is able to only select one answer from a choise of four per question.
 
 Once all the questions from a category are completed the user is directed to the end page where the final score is displayed and a simple form is provided for feedback purposes.
 
