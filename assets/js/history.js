@@ -111,7 +111,7 @@ getNewQuestion = () => {
          // displays final score in end page
         localStorage.setItem('mostRecentScore', score);
         //takes you to end page
-        return window.location.assign('love-quizzing/end.html');
+        return window.location.assign('./end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
