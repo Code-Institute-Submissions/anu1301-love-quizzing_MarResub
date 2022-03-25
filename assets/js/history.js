@@ -45,7 +45,7 @@ let questions = [{
         answer: 1,
     },
     {
-        question: "In the 1970s, because of the Watergate scandal, who became the first Us attorney general to serve prison time?",
+        question: "In the 1970s, because of the Watergate scandal, who became the first U.S. attorney general to serve prison time?",
         choice1: "Ramsay Clark",
         choice2: "John Mitchell",
         choice3: "Richard Kleindienst",
