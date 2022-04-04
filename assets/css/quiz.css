@@ -67,3 +67,34 @@
     width: 0%;
 
 }
+@media (max-width:700px) {
+    .hud-prefix {
+        font-size: 1.5rem;
+    }
+    
+    #progressBar {
+        width: 15rem;
+        height: 3rem;
+        border: 0.2rem solid #001a4d;
+        margin-top: 1rem;
+        margin-left: 5px;
+    }
+
+    #progressBarFull {
+        height: 2.6rem;
+    }
+    
+    #question {
+        font-size: 2rem;
+    }
+    .choice-container {
+        width: 95%;
+        margin: 0 auto 0.5rem auto;
+        font-size: 1.5rem;
+    }
+
+    .container>* {
+        width:90%;
+    }
+
+}
