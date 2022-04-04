@@ -99,14 +99,16 @@ const SCORE_POINTS = 10;
 // Max number of question asked
 const MAX_QUESTIONS = 10;
 
-startGame = () => {
+const startGame = () => {
+    "use strict";
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
 
-getNewQuestion = () => {
+const getNewQuestion = () => {
+    "use strict";
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // displays final score in end page
         localStorage.setItem('mostRecentScore', score);
@@ -133,6 +135,7 @@ getNewQuestion = () => {
 };
 // returns with colour change according to correct or incorrect answer
 choices.forEach((choice) => {
+    "use strict";
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
 
@@ -156,7 +159,8 @@ choices.forEach((choice) => {
     });
 });
 // increments score for correct answers
-incrementScore = num => {
+const incrementScore = num => {
+    "use strict";
     score += num;
     scoreText.innerText = score;
 };

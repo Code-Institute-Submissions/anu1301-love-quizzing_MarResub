@@ -99,7 +99,7 @@ const SCORE_POINTS = 10;
 // Max number of question asked
 const MAX_QUESTIONS = 10;
 
-startGame = () => {
+const startGame = () => {
     "use strict";
     questionCounter = 0;
     score = 0;
@@ -107,7 +107,7 @@ startGame = () => {
     getNewQuestion();
 };
 
-getNewQuestion = () => {
+const getNewQuestion = () => {
     "use strict";
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // displays final score in end page
@@ -159,7 +159,7 @@ choices.forEach((choice) => {
     });
 });
 // increments score for correct answers
-incrementScore = num => {
+const incrementScore = num => {
     "use strict";
     score += num;
     scoreText.innerText = score;
