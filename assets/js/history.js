@@ -13,7 +13,7 @@ let availableQuestions = [];
 
 //Question and answer section
 let questions = [{
-        question: 'Which member of the British royal family was murdered by IRA in 1979?',
+        question: 'Which member of the British royal family was murdered by the IRA in 1979?',
         choice1: 'Princess Margaret',
         choice2: 'Lord Mountbatten',
         choice3: 'Prince Philip',
