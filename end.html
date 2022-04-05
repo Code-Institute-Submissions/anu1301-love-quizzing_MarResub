@@ -32,12 +32,6 @@
       <a class="btn" href="./index.html">Home</a>
     </div>
   </div>
-  <script>
-    //final score on end page
-    const finalScore = document.querySelector('#finalScore');
-    const mostRecentScore = localStorage.getItem('mostRecentScore');
-    finalScore.innerText = mostRecentScore;
-  </script>
   <footer>
     <!--Social media-->
     <div class="row">
@@ -60,7 +54,12 @@
     </ul> 
 </div>
 </footer>
-
+<script>
+  //final score on end page
+  const finalScore = document.querySelector('#finalScore');
+  const mostRecentScore = localStorage.getItem('mostRecentScore');
+  finalScore.innerText = mostRecentScore;
+</script>
 </body>
 
 </html>

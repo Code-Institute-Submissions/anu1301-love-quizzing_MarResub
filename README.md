@@ -18,11 +18,11 @@ A live website to my quiz can be found [here](https://anu1301.github.io/love-qui
 
 [4. Features](#features)
 
-[5.Technologies Used](#technologies-used)
+[5. Technologies Used](#technologies-used)
 
-[6.Testing](#testing)
+[6. Testing](#testing)
 
-[7.Issues & Future Development](#issues-and-developments)
+[7. Issues & Future Development](#issues-and-developments)
 
 [8. Deployment](#deployment)
 
@@ -78,7 +78,7 @@ I had sketched out two different plans initially, as presented below:
 ### Home page of second idea
 
 ![wire frame](./assets/images/love_quizzing_two_quiz.PNG)
-#### Qiz page of second idea
+#### Quiz page of second idea
 
 ![wire frame](./assets/images/love_quizzing_two_end.PNG)
 ### End page of first and second idea
@@ -117,50 +117,78 @@ Again a home button is provided for the user to return to the home page to choos
 
 The following technologies where used:
 
-- HTML
-- CSS
-- JavaScript
+- HTML - for the structure of the website
+- CSS - for the layout and presentation of the website
+- JavaScript - for the website interaction
+- GitHub - creation and storate of the repository
+- GitPod - code editor (code commited and pushed to GitHub)
 
 <a name="testing"></a>
 
 ## 6. Testing
-[Go up to the top](#table-of-contents) 
+[Go up to the top](#table-of-contents)
 
-Chrome developer tools was used simultaneously whilst the website was being built, to ensure that any issues were picked up straight away.
+W3C Markup was used to check for errors in the HTML pages. The final checks showed no errors:
 
-W3C Markup was used to check for errors within the HTML pages. The final checks showed no errors.
-
-![html-validation](./assets/images/index.html_validation.PNG)
 index.html
+![html-validation](./assets/images/index.html_validation.PNG)
 
-![html-validation](./assets/images/quiz.html_validation.PNG)
-Note that all the quiz pages are the same and have all been tested in the same way to produce the same result. Only one set of results are shown above.
+food-and-drink.html
+![html-validation](./assets/images/food-and-drink.html%20-%20validator.PNG)
 
-![html-validation](./assets/images/end.html_validation.PNG)
+history.html
+![html-validation](./assets/images/history.html%20-%20validator.PNG)
+
+science.html
+![html-validation](./assets/images/science.html-validator.PNG)
+
+sports.html
+![html-validation](./assets/images/sports.html-validator.PNG)
+
 end.html
+![html-validation](./assets/images/end.html_validation.PNG)
 
-W3C CSS was used to check for errors within style.css and quiz.css, with no errors showing at the end:
+W3C CSS was used to check for errors in style.css and quiz.css. The final checks showed no errors:
 
-![css-validation](./assets/images/style.css_validation.PNG)
 style.css
+![css-validation](./assets/images/style.css_validation.PNG)
 
 The warning shown in the error checker relates to the imported font styles from google.
 
-![css-validation](./assets/images/quiz.css_validation.PNG)
+![style.css-warning](./assets/images/style.css_validation_warning.PNG)
 quiz.css
+![css-validation](./assets/images/quiz.css_validation.PNG)
 
-JSHint was used to check for errors within the JavaScript code, with the following results for the final check:
+JSHint was used to check for errors in the JavaScript code with the following results:
+
+before (for all the javascript files):
 
 ![js-validation](./assets/images/js_warnings.PNG)
 
-I am not sure what the warnings mean, as I have tested the code through dev tools, and there appears to be adverse effects and the code is working as it should.
+after
+
+food-and-drink.js
+
+![js-validation](./assets/images/food-and-drink-js-validator.PNG)
+history.js
+
+![js-validation](./assets/images/history-js-validator.PNG)
+
+science.js
+
+![js-validation](./assets/images/science.js-validator.PNG)
+
+sports.js
+
+![js-validation](./assets/images/science.js-validator.PNG)
 
 WebAim was also used to check accessibility, with the following results:
 
 ![accessibility](./assets/images/accessibility.PNG)
 
-<a name="issues-and-developments"></a>
+Dev tools was also used to ensure that any issues were picked up and dealt with straight away.
 
+<a name="issues-and-developments"></a>
 ## 7. Issues & Future Developments
 [Go up to the top](#table-of-contents) 
 
