@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Lobster+Two&family=Nova+Square&family=Oswald:wght@200&display=swap');
 
 :root {
-    background: linear-gradient(-45deg, #f8e1f4, #ddbddd, #d6e7e7, #b7e7e7);
+    background: linear-gradient(-90deg, #f7d5f2, #f7b4f7, #d4f4f4, #b7efef);
     font-size: 62.5%;
 }
 
@@ -62,8 +62,7 @@ h3 {
     padding: 15px;
     padding-bottom: 0;
     margin-bottom: 0;
-    position: relative;
-    
+    position: relative; 
 
 }
 
@@ -72,8 +71,6 @@ h3 {
     font-size: 2.5rem;
     white-space: nowrap;
 }
-
-
 
 img {
     border-radius: 10px;
