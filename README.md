@@ -1,5 +1,5 @@
 # Love Quizzing?
-![website preview](./assets/images/am_i_reponsive.PNG)
+![website preview](./assets/images/am-i-responsive.PNG)
 ## Introduction
 Online quizzes are becoming popular and there has been a growth in this market over the last couple of years, due to the Covid pandemic.
 
