@@ -22,7 +22,7 @@ A live website to my quiz can be found [here](https://anu1301.github.io/love-qui
 
 [6. Testing](#testing)
 
-[7. Issues & Future Development](#issues-and-developments)
+[7. Future Development](#developments)
 
 [8. Deployment](#deployment)
 
@@ -52,7 +52,7 @@ The application is responsive to various sized devices.
 ## 2. Colour Scheme
 [Go up to the top](#table-of-contents)
 
-The choice of background colour of pale blue transitioning into a pale magenta, provides a contrasting backdrop for the dark indigo font colour. 
+The choice of background colour of cyan transitioning into a magenta, provides a contrasting backdrop for the dark indigo font colour. 
 
 It provides enough interest without it being distracting to the user.
 
@@ -90,7 +90,7 @@ The final design was a hybrid of the two ideas with additional features.
 ## 4. Features
 [Go up to the top](#table-of-contents)
 
-The home/landing page presents the title of the site as a question "Love Quizzing?" Below this there are four images which represent the four categories of quizzes,
+The home/landing page presents the title of the site as a question "Love Quizzing?" Below this there are four images which represent the four categories of quizes.
 
 Each image acts as a responsive button which takes you to its corresponding quiz page when, clicked upon.
 
@@ -182,27 +182,54 @@ sports.js
 
 ![js-validation](./assets/images/science.js-validator.PNG)
 
-WebAim was also used to check accessibility, with the following results:
+Siteimprove was used to check accessibility, with the following results:
 
-![accessibility](./assets/images/accessibility.PNG)
+![accessibility](./assets/images/accessibility-checker.PNG)
 
 Dev tools was also used to ensure that any issues were picked up and dealt with straight away.
 
+### Manual Testing
+
+The website was tested manually by loading the website on a Samsung smart phone as well as a Kindle tablet and was found to be responsive. 
+
+This was also tested via dev tools as follows:
+
+* Responsive dimentions (page was draged back and forth to reduce/increase size of viewport on desk-top screen)
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* Samsung Galexy S8
+* iPad Air
+* iPad Mini
+
+The website was tested using the following browsers:
+* Microsoft Edge
+* Google Chrome
+
+The features were tested as follows:
+
+* The images link to their respective quiz pages and were tested - they behaved as expected. They took you to the appropriate quiz pages.
+* The collapsible instructions work as expected, i.e. when the plus sign is selected the instructions drop down. The colour also changes, as expected.
+* The social network icons, when selected, take you to their respective websites.
+* The selection of answers on the quiz pages behave as they should - if the answer is right the selector turns green and if incorrect, turns red.
+* The transition to the next question is short enough to stop the user breaking the system.
+* The score at the top and the progress bar work as the questions are answered.
+* Once all the questions have been answered the user is taken to the end page where the final score is shown - this works as expected.
+* The name, email and text area for feedback are required fields - if not completed and the submit button is selected the user is prompted to complete these fields - this works as it should.
+* The email field recognises the email format and prompts you if it has not been completed correctly.
+* If the required fields are correctly completed and the submit button selected, the user is directed to the https://formdump.codeinstitute.net/ (the Code Institute form dump).
+* The home button on the quiz page and the end page bring you back to the home page - this works as expected.
+
+
 <a name="issues-and-developments"></a>
-## 7. Issues & Future Developments
+## 7. Future Developments
 [Go up to the top](#table-of-contents) 
 
-There are some noted issues which have been difficult to detect and rectify, in the time given.
+There has been consideration given to future developments.
 
-The images on the home page appear slightly mis-aligned on smaller devices, and have very little spacing between them horizontally on an iPad type device.
+- Having one html and one js file for all gategories of quiz 
 
-The category text below the image has been difficult to align center to the image above.
-
-There appears to be a colour band at the bottom of the web pages, which I have not been able to detect why it is there.
-
-There has been consideration given to future developments, had this been a real quiz page. 
-
-- A possibility of further categories of quiz. 
+- A further categories of quiz. 
 
 - Time limits being placed on answering the questions, to heighten the excitment of beating the clock. 
 
@@ -215,15 +242,15 @@ There has been consideration given to future developments, had this been a real 
 ## 8. Deployment
 [Go up to the top](#table-of-contents)
 
-The site was deployed to GitHub pages, since the repository was created through GitHub, using the following method:
+TThe site was deployed to GitHub pages, as the repository was created through GitHub, using the following method:
 
-- Click on settings navigation bar under the Love Quizzing repository title.
+- Navigate to the settings tab in the mollies boutique repository in GitHub.
 
 - Select pages on the left-hand side menu
 
-- Click on master branch and save
+- From the source section drop-down menu, select the Master Branch and save
 
-- This generates a link with the website live
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 - The live link can be found at the top of this document
 
