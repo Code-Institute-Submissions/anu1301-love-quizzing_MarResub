@@ -89,7 +89,7 @@ img:hover {
 /* Formatting container and column */
 
 .container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,7 +207,7 @@ img:hover {
 /* Form stylng on end page */
 
 form {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
