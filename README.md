@@ -92,21 +92,38 @@ The final design was a hybrid of the two ideas with additional features.
 
 The home/landing page presents the title of the site as a question "Love Quizzing?" Below this there are four images which represent the four categories of quizes.
 
-Each image acts as a responsive button which takes you to its corresponding quiz page when, clicked upon.
+Home/Landing Page
 
-Below the categories is a collapsible information bar, which responds to the mouse hover by changing colour. It opens up an information section when the "plus" icon is clicked, and closes when the "minus" icon is clicked,
+![landing-page](./assets/images/landing-page.PNG)
 
-Each qui page provides you with the title of the quiz at the top of the page, below which there is a progress bar, a question tracker and a score tracker for the number of correct answers given.
+Each image acts as a responsive button which takes you to its corresponding quiz page when, selected.
+
+Below the categories is a collapsible information bar, which responds to the mouse hover by changing colour. It opens up an information section when the "plus" icon is selected, and closes when the "minus" icon is selected.
+
+![collapsible-information](./assets/images/collapsible-info-bar.PNG)
+
+Each quiz page provides you with the title of the quiz at the top of the page, below which there is a progress bar, a question tracker and a score tracker for the number of correct answers given.
+
+![food-and-drink-quiz-page](./assets/images/food-and-drink-quiz-page.PNG)
 
 The questions follow on and are given randomly, with the multiple choice answers below.
 
+![history-quiz-page](./assets/images/history-quiz-page.PNG)
+
 A correct answer returns with the answer bar turning green, and an incorrect answer returns with the bar turning red.
+
+![science-quiz-page](./assets/images/science-quiz-page.PNG)
+
+
+![sports-quiz-page](./assets/images/sports-quiz-page.PNG)
 
 A home button below the answers will return you to the home page.
 
 Once the quiz is complete, the user will be directed to the end page where the final score for correct answers is given. 
 
-There is a simplet form to provide feedback, name and e-mail. These are required fields.
+![end-page](./assets/images/end-page.PNG)
+
+There is a simple form to provide feedback, name and e-mail. These are required fields and the user will not be allowed to submit without completing them.
 
 Again a home button is provided for the user to return to the home page to choose another category.
 
