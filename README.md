@@ -259,11 +259,11 @@ The features were tested as follows:
 
 There has been consideration given to future developments and improvements.
 
-- Having one html and one js file for all gategories of quiz, instead of gour as the case with this application.
+- Having one html and one js file for all gategories of quiz, instead of four as is the case with this application.
 
 - Provide further categories of quiz questions to reach a wider audiance. 
 
-- Time limits being placed on answering the questions, to heighten the excitment of beating the clock.
+- Time limits being placed on answering the questions, to heighten the users' experience of beating the clock.
 
 - Providing the correct answer if the wrong one is given.
 
@@ -276,9 +276,9 @@ There has been consideration given to future developments and improvements.
 ## 8. Deployment
 [Go up to the top](#table-of-contents)
 
-TThe site was deployed to GitHub pages, as the repository was created through GitHub, using the following method:
+The site was deployed to GitHub pages, (as the repository was created through GitHub), using the following method:
 
-- Navigate to the settings tab in the mollies boutique repository in GitHub.
+- Navigate to the settings tab in the Love Quizzing? repository in GitHub.
 
 - Select pages on the left-hand side menu
 
@@ -301,7 +301,7 @@ For the collapsible and linear gradient background, I used W3Schools.
 
 I also used some code and ideas from my previous project "Mollies Boutique", as well as getting some ideas from the CI Love Maths project.
 
-My mentor, Marcel Mulder, gave valuable feedback and ideas for improvement or experimentation.
+My mentor, Marcel Mulder, gave valuable feedback and ideas for improvement and experimentation.
 
 
 
