@@ -33,30 +33,30 @@ A live website to my quiz can be found [here](https://anu1301.github.io/love-qui
 ## 1. User Experience (UX)
 [Go up to the top](#table-of-contents)
 
-The aim was to design an online quiz game that would provide entertainment and knowledge at the same time.
+The aim was to design an online quiz game that would provide entertainment and knowledge to a target audience varying from mid/late 20s to the over 50s. 
 
-The target audience the quiz is aimed at varies and is vast - any age from mid/late 20s to the over 50s.
+The aim of the website is to provide an application which the user can engage and interact with.
 
-The application provides four separate categories of questions - Food & Drink, History, Science and Sports, which have proven to be popular and gives the user a variety from which to choose.
+There are four separate categories of questions spanning a variety of interests - Food & Drink, History, Science and Sports.
 
-Each separate category provides 10 questions with multiple choice answers. The user is able to only select one answer from a choise of four per question.
+Each separate category provides 10 questions with multiple choice answers. The user is able to only select one answer from a choice of four per question.
 
 Once all the questions from a category are completed the user is directed to the end page where the final score is displayed and a simple form is provided for feedback purposes.
 
-The application is simple to use and intuitive, and provides instruction on the home/landing page.
+The application is simple to navigate and provides instruction on the home/landing page.
 
-The application is responsive to various sized devices.
+The application is responsive to various sized devices, thereby providing entertainment on the go.
 
 <a name="colour-scheme"></a>
 
 ## 2. Colour Scheme
 [Go up to the top](#table-of-contents)
 
-The choice of background colour of cyan transitioning into a magenta, provides a contrasting backdrop for the dark indigo font colour. 
+The choice of background colour of cyan transitioning into a magenta, provides a contrasting backdrop for the dark indigo font colour, and there is enough interest without being distracting.
 
-It provides enough interest without it being distracting to the user.
+The website was run through the WebAim Contrast
 
-The website was run through the WebAim Contrast Checker with the following result:
+##### Checker with the following result:
 ![colour contrast](./assets/images/webaim_contrast_checker.PNG)
 
 <a name="wireframes></a>
@@ -68,20 +68,22 @@ Balsamiq was used to create an initial skeletal/wire frame plan.
 
 I had sketched out two different plans initially, as presented below:
 
-![wire frame](./assets/images/love_quizzing_one_home.PNG)
-### Home page of first idea.
 
+##### Home page of first idea.
+![wire frame](./assets/images/love_quizzing_one_home.PNG)
+
+##### Quiz page of first idea
 ![wire frame](./assets/images/love_quizzing_one_quiz.PNG)
-### Quiz page of first idea
+##### Home page of second idea
 
 ![wire frame](./assets/images/love_quizzing_two_home.PNG)
-### Home page of second idea
 
+##### Quiz page of second idea
 ![wire frame](./assets/images/love_quizzing_two_quiz.PNG)
-#### Quiz page of second idea
 
+##### End page of first and second idea
 ![wire frame](./assets/images/love_quizzing_two_end.PNG)
-### End page of first and second idea
+
 
 The final design was a hybrid of the two ideas with additional features.
 
@@ -90,36 +92,48 @@ The final design was a hybrid of the two ideas with additional features.
 ## 4. Features
 [Go up to the top](#table-of-contents)
 
-The home/landing page presents the title of the site as a question "Love Quizzing?" Below this there are four images which represent the four categories of quizes.
+The home/landing page presents the title of the site as a question "Love Quizzing?", which engages quiz lovers and on a subliminal level invites them to take part.
 
-Home/Landing Page
+Below the title there are four images, representing the four quiz categories.
+
+##### Home/Landing Page
 
 ![landing-page](./assets/images/landing-page.PNG)
 
-Each image acts as a responsive button which takes you to its corresponding quiz page when, selected.
+Each image acts as a responsive button which takes you to its corresponding quiz page when selected. There is a hover effect that produces a box-shadow and slight movement, which gives the appearance of a raised button upon interaction with the user.
 
 Below the categories is a collapsible information bar, which responds to the mouse hover by changing colour. It opens up an information section when the "plus" icon is selected, and closes when the "minus" icon is selected.
 
+##### Collapsible Information Bar
 ![collapsible-information](./assets/images/collapsible-info-bar.PNG)
 
 Each quiz page provides you with the title of the quiz at the top of the page, below which there is a progress bar, a question tracker and a score tracker for the number of correct answers given.
+
+##### Food & Drink Quiz Page
 
 ![food-and-drink-quiz-page](./assets/images/food-and-drink-quiz-page.PNG)
 
 The questions follow on and are given randomly, with the multiple choice answers below.
 
+##### History Quiz Page
+
 ![history-quiz-page](./assets/images/history-quiz-page.PNG)
 
 A correct answer returns with the answer bar turning green, and an incorrect answer returns with the bar turning red.
 
+##### Science Quiz Page
+
 ![science-quiz-page](./assets/images/science-quiz-page.PNG)
 
 
+##### Sports Quiz Page
 ![sports-quiz-page](./assets/images/sports-quiz-page.PNG)
 
 A home button below the answers will return you to the home page.
 
-Once the quiz is complete, the user will be directed to the end page where the final score for correct answers is given. 
+Once the quiz is complete, the user will be directed to the end page where the final score for correct answers is given.
+
+##### End Page
 
 ![end-page](./assets/images/end-page.PNG)
 
@@ -147,55 +161,56 @@ The following technologies where used:
 
 W3C Markup was used to check for errors in the HTML pages. The final checks showed no errors:
 
-index.html
+##### index.html
 ![html-validation](./assets/images/index.html_validation.PNG)
 
-food-and-drink.html
+##### food-and-drink.html
 ![html-validation](./assets/images/food-and-drink.html%20-%20validator.PNG)
 
-history.html
+##### history.html
 ![html-validation](./assets/images/history.html%20-%20validator.PNG)
 
-science.html
+##### science.html
 ![html-validation](./assets/images/science.html-validator.PNG)
 
-sports.html
+##### sports.html
 ![html-validation](./assets/images/sports.html-validator.PNG)
 
-end.html
+##### end.html
 ![html-validation](./assets/images/end.html_validation.PNG)
 
 W3C CSS was used to check for errors in style.css and quiz.css. The final checks showed no errors:
 
-style.css
+##### style.css
 ![css-validation](./assets/images/style.css_validation.PNG)
 
 The warning shown in the error checker relates to the imported font styles from google.
 
 ![style.css-warning](./assets/images/style.css_validation_warning.PNG)
-quiz.css
+
+##### quiz.css
 ![css-validation](./assets/images/quiz.css_validation.PNG)
 
 JSHint was used to check for errors in the JavaScript code with the following results:
 
-before (for all the javascript files):
+#### before (for all the javascript files):
 
 ![js-validation](./assets/images/js_warnings.PNG)
 
-after
+#### after
 
-food-and-drink.js
+##### food-and-drink.js
 
 ![js-validation](./assets/images/food-and-drink-js-validator.PNG)
 history.js
 
 ![js-validation](./assets/images/history-js-validator.PNG)
 
-science.js
+##### science.js
 
 ![js-validation](./assets/images/science.js-validator.PNG)
 
-sports.js
+##### sports.js
 
 ![js-validation](./assets/images/science.js-validator.PNG)
 
@@ -225,10 +240,10 @@ The website was tested using the following browsers:
 
 The features were tested as follows:
 
-* The images link to their respective quiz pages and were tested - they behaved as expected. They took you to the appropriate quiz pages.
-* The collapsible instructions work as expected, i.e. when the plus sign is selected the instructions drop down. The colour also changes, as expected.
+* The images' links to their respective quiz pages were tested - they behaved as expected. They took you to the appropriate quiz pages.
+* The collapsible information bar and instructions work as expected, i.e. when the plus sign is selected the instructions drop down. The colour also changes, as expected. When the minus sign is selected the instructions collapse and disappear.
 * The social network icons, when selected, take you to their respective websites.
-* The selection of answers on the quiz pages behave as they should - if the answer is right the selector turns green and if incorrect, turns red.
+* The selection of answers on the quiz pages behave as they should - if the answer is correct, the selector turns green and if incorrect, turns red.
 * The transition to the next question is short enough to stop the user breaking the system.
 * The score at the top and the progress bar work as the questions are answered.
 * Once all the questions have been answered the user is taken to the end page where the final score is shown - this works as expected.
@@ -242,17 +257,19 @@ The features were tested as follows:
 ## 7. Future Developments
 [Go up to the top](#table-of-contents) 
 
-There has been consideration given to future developments.
+There has been consideration given to future developments and improvements.
 
-- Having one html and one js file for all gategories of quiz 
+- Having one html and one js file for all gategories of quiz, instead of gour as the case with this application.
 
-- A further categories of quiz. 
+- Provide further categories of quiz questions to reach a wider audiance. 
 
-- Time limits being placed on answering the questions, to heighten the excitment of beating the clock. 
+- Time limits being placed on answering the questions, to heighten the excitment of beating the clock.
 
-- Having a highest score 'Leader Board'
+- Providing the correct answer if the wrong one is given.
 
-- Animated background
+- Having a highest score 'Leader Board'.
+
+- A subtle animated background.
 
 <a name="deployment"></a>
 
