@@ -146,7 +146,7 @@ The following technologies where used:
 - HTML - for the structure of the website
 - CSS - for the layout and presentation of the website
 - JavaScript - for the website interaction
-- GitHub - creation and storate of the repository
+- GitHub - creation and storage of the repository
 - GitPod - code editor (code commited and pushed to GitHub)
 
 
@@ -292,7 +292,7 @@ For the collapsible and linear gradient background, I used W3Schools.
 
 I also used some code and ideas from my previous project "Mollies Boutique", as well as getting some ideas from the CI Love Maths project.
 
-My mentor, Marcel Mulder, gave valuable feedback and ideas for improvement and experimentation.
+My mentor, Marcel Mulder, gave valuable feedback and ideas for improvement and experimentation. Also for his support and encouragement.
 
 
 
