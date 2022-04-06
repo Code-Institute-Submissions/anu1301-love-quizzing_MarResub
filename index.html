@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/09ce35d73f.js" crossorigin="anonymous"></script>
     <title>Love Quizzing</title>
-   </head>
+</head>
 
 <body>
 
@@ -29,7 +29,7 @@
         </div>
         <div class="column">
             <a href="./history.html"><img id="history" src="./assets/images/history.jpg"
-                alt="Sepia image of partial clock face, sail boat and old fashioned History book"></a>
+                    alt="Sepia image of partial clock face, sail boat and old fashioned History book"></a>
             <div>
                 <h2>History</h2>
             </div>
@@ -38,13 +38,14 @@
     <div class="row">
         <div class="column">
             <a href="./science.html"><img id="science" src="./assets/images/science.jpg"
-                alt="DNA helix strand and a doctor in a lab coat with stethascope"></a>
+                    alt="DNA helix strand and a doctor in a lab coat with stethascope"></a>
             <div>
                 <h2>Science</h2>
             </div>
         </div>
         <div class="column">
-            <a href="./sports.html"><img id="sports" src="./assets/images/sports.jpg" alt="Many people practising multiple sports"></a>
+            <a href="./sports.html"><img id="sports" src="./assets/images/sports.jpg"
+                    alt="Many people practising multiple sports"></a>
             <div>
                 <h2>Sports</h2>
             </div>
@@ -56,54 +57,57 @@
                 Lets Play, but first check out the instructions
             </button>
             <div class="content">
-                <p>Choose your quiz questions by clicking on the image corresponding to the category you want</p>
-                <p>You will have 10 questions to answer</p>
-                <p>Your progress and score will be tracked</p>
-                <p>Once the quiz is over, you will be taken to a feedback form for completion and submission</p>
-                <p>You can return to the Home page to choose another category</p>
-                <p>Finally, lets play and enjoy!</p>
+                <ul type="disc">
+                    <li>Choose your quiz questions by clicking on the image corresponding to the category you want.</li>
+                    <li>You will have 10 questions to answer.</li>
+                    <li>Your progress and score will be tracked.</li>
+                    <li>Once the quiz is over, you will be taken to a feedback form for completion and submission.</li>
+                    <li>You can return to the Home page to choose another category.</li>
+                    <li>Finally, lets play and enjoy!</li>
+                </ul>
             </div>
         </div>
     </div>
 
-<footer>
-    <!--Social media-->
-    <div class="row">
-    <ul class="social-networks">
-        <li>
-            <a href="https://facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab"><i class="fab fa-facebook-square"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab"><i class="fab fa-twitter"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab"><i class="fab fa-instagram"></i>
-            </a>
-        </li>
-    </ul> 
-</div>
-</footer>
-<!--JavaScript for collapsible-->
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+    <footer>
+        <!--Social media-->
+        <div class="row">
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab"><i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab"><i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab"><i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--JavaScript for collapsible-->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        });
-    }
-</script>
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
+
 </html>

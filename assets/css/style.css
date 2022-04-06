@@ -133,7 +133,7 @@ img:hover {
     border: 0.4rem solid #001a4d;
     text-align: center;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
 }
@@ -144,7 +144,7 @@ img:hover {
 }
 
 .content {
-    padding: 18px;
+    padding: 25px;
     display: none;
     overflow: hidden;
     background-color: #cdf3f1;
@@ -153,9 +153,9 @@ img:hover {
     border: 0.1rem solid #001a4d;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .collapsible:after {
@@ -317,6 +317,7 @@ footer {
    
     .feedback {
         width: 30rem;
+        height: 20rem;
     }
 
     .btn {
