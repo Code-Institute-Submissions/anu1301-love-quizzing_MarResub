@@ -47,19 +47,15 @@ The application is simple to navigate and provides instruction on the home/landi
 
 The application is responsive to various sized devices, thereby providing entertainment on the go.
 
-<a name="colour-scheme"></a>
-
 ## 2. Colour Scheme
 [Go up to the top](#table-of-contents)
 
 The choice of background colour of cyan transitioning into a magenta, provides a contrasting backdrop for the dark indigo font colour, and there is enough interest without being distracting.
 
-The website was run through the WebAim Contrast
+The website was run through the WebAim Contrast Checker with the following result:
 
-##### Checker with the following result:
 ![colour contrast](./assets/images/webaim_contrast_checker.PNG)
 
-<a name="wireframes></a>
 
 ## 3. Wire Frames
 [Go up to the top](#table-of-contents)
@@ -141,7 +137,6 @@ There is a simple form to provide feedback, name and e-mail. These are required 
 
 Again a home button is provided for the user to return to the home page to choose another category.
 
-<a name="technologies-used"></a>
 
 ## 5. Technologies Used
 [Go up to the top](#table-of-contents)
@@ -154,7 +149,6 @@ The following technologies where used:
 - GitHub - creation and storate of the repository
 - GitPod - code editor (code commited and pushed to GitHub)
 
-<a name="testing"></a>
 
 ## 6. Testing
 [Go up to the top](#table-of-contents)
@@ -253,7 +247,6 @@ The features were tested as follows:
 * The home button on the quiz page and the end page bring you back to the home page - this works as expected.
 
 
-<a name="issues-and-developments"></a>
 ## 7. Future Developments
 [Go up to the top](#table-of-contents) 
 
@@ -271,7 +264,6 @@ There has been consideration given to future developments and improvements.
 
 - A subtle animated background.
 
-<a name="deployment"></a>
 
 ## 8. Deployment
 [Go up to the top](#table-of-contents)
@@ -288,7 +280,6 @@ The site was deployed to GitHub pages, (as the repository was created through Gi
 
 - The live link can be found at the top of this document
 
-<a name="credits"></a>
 
 ## 9. Credits
 [Go up to the top](#table-of-contents)
